@@ -1,12 +1,12 @@
-import { resolve } from "node:path"
+import { resolve } from "path"
 
 export default {
     build: {
         emptyOutDir: true,
         rollupOptions: {
             input: {
-                mariokart: resolve ("paginas/mario-kart.html") ,
-                mortalkombat: resolve ("paginas/mortal-kombat.html") ,
+                mariokart: resolve ("pages/mariokart.html") ,
+                mortalkombat: resolve ("pages/mortalkombat.html") ,
                 index: resolve ("index.html")
             }
         }
